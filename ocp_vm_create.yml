@@ -56,9 +56,9 @@
                           bus: virtio
                         name: cloudinitdisk
                     interfaces:
+                      - name: default
                         masquerade: {}
                         model: virtio
-                        name: default
                     networkInterfaceMultiqueue: true
                     rng: {}
                   features:
